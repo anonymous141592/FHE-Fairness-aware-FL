@@ -362,7 +362,7 @@ func main() {
       }
 
 
-      plaintext_agg_layer1 = encoder.Decode(decryptor.DecryptNew(global_model_kernels[0]), params.LogSlots())
+      plaintext_agg_layer1 := encoder.Decode(decryptor.DecryptNew(global_model_kernels[0]), params.LogSlots())
       fmt.Println("\nSample weights from first layer of global model")
       for i := 0 ; i< 10 ; i++ {
         fmt.Println("[test] Global model kernel = ", real(plaintext_agg_layer1[i]))
