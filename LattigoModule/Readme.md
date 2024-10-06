@@ -9,7 +9,7 @@ This project demonstrates the usage of Fully Homomorphic Encryption (FHE) for fa
 
 ## Installation
 
-1. Initalize module : 
+1. Initalize module :
 go mod init FHE_Fair_Aggreg
 
 2. Install Lattigo v4:
@@ -25,18 +25,17 @@ go get github.com/tuneinsight/lattigo/v4/rlwe
 
 To build the Go file, run:
 
-go build FHE_Fair_Aggreg.go
+go build FHE-Fair-Aggreg.go
 
 
 4. Run the project:
 
 To execute the program, use the following command:
 
-./FHE_Fair_Aggreg
+./FHE-Fair-Aggreg
 
 
 Alternatively, you can run it directly without building by using:
 
 
-go run FHE_Fair_Aggreg.go
-
+go run FHE-Fair-Aggreg.go
