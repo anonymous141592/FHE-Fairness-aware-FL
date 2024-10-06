@@ -3,7 +3,7 @@
 import (
 	"fmt"
 	"os"
-  "io/ioutil"
+        "io/ioutil"
 	"encoding/csv"
 	"time"
 	"strconv"
