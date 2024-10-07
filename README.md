@@ -21,6 +21,3 @@ this implementation is composed of two modules.
 A single dataset is required to evaluate these experiments contained in datasets/ folder in the TensoflowModule : 
 1) Adult-Census-Income
 
-
-
-       
