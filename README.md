@@ -1,4 +1,4 @@
-# PoPETS2024-submission275
+# PoPETS2024-submission99 (Issue 1).
 
 This GitHub repository contains the implementation of a Proof-of-Concept of CKKS-based secure aggregation with three clients with group fairness measures.
 
