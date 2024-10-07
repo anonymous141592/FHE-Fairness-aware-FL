@@ -54,6 +54,9 @@ To run this module, ensure you have the following packages installed:
         array
         statistics
         decimal
+    
+    
+    pip install tensorflow scikit-learn pandas numpy flwr seaborn matplotlib imbalanced-learn scipy
 
 
 
