@@ -25,6 +25,38 @@ The training process operates in a series of rounds, as described below:
         Clients read the aggregated model files from the AggModel directory to reconstruct the updated global model.
         The process then proceeds to the next training round.
 
+
+
+Here's a dependencies section based on the imports you've provided:
+Dependencies
+
+To run this module, ensure you have the following packages installed:
+
+    Python Packages:
+        tensorflow (>= 2.0.0)
+        scikit-learn (>= 0.24.0)
+        pandas (>= 1.1.0)
+        numpy (>= 1.18.0)
+        flwr (>= 0.16.0)
+        seaborn (>= 0.11.0)
+        matplotlib (>= 3.3.0)
+        imblearn (>= 0.7.0)
+        scipy (>= 1.5.0)
+
+    Standard Library:
+        errno
+        os
+        csv
+        random
+        math
+        time
+        sys
+        array
+        statistics
+        decimal
+
+
+
 Summary
 
 This module effectively demonstrates the iterative process of client updates and aggregation in a Federated Learning setup, ensuring secure communication and model updates throughout the training rounds.
