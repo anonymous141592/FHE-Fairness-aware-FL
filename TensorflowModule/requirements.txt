@@ -5,5 +5,5 @@ numpy>=1.18.0
 flwr>=0.16.0
 seaborn>=0.11.0
 matplotlib>=3.3.0
-imbalanced-learn>=0.7.0
+imbalanced-learn
 scipy>=1.5.0
