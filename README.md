@@ -8,11 +8,15 @@ this implementation is composed of two modules :
      An intermediate directory "SharedFiles" serves to simulate the network, where clients write their updated models, and the server reads, encrypts then aggregates them.  
 
 -Dependencies :
+    Numpy : 
        Numpy.
        Panda.
        Sklearn
        Tensorflow.
+                   ---> requirements.txt file included in the Tensorflow module folder
+    Go :
        Lattigo homomorphic library.
+                   ---> Lattigo modules requirements given in the Lattigo module.
        
 
 
