@@ -16,10 +16,9 @@ go mod init FHE_Fair_Aggreg
 
 Fetch the required packages from the Lattigo library:
 
-go get github.com/tuneinsight/lattigo/v4
-go get github.com/tuneinsight/lattigo/v4/ckks
-go get github.com/tuneinsight/lattigo/v4/rlwe
-
+go get github.com/tuneinsight/lattigo/tree/v40.0 
+go get github.com/tuneinsight/lattigo/tree/v40.0/ckks 
+go get github.com/tuneinsight/lattigo/tree/v40.0/rlwe
 
 3. Build the project:
 
